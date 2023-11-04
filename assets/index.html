@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sudheer</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sudheer</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="https://torange.biz/photofxnew/47/HD/circle-mirror-vivid-colors-frame-rose-winter-red-snow-47612.jpg" alt="flower">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sudheer</h1>
+            <p class="section__text__p2">Web Developer</p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('https://www.facebook.com')"
+                >
+                    Facebook
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img
+                src="https://img.freepik.com/premium-vector/vinnytsia-ukraine-april-27-2023-popular-social-media-icon-instagram-vector-design_545793-1681.jpg" 
+                alt="my insta profile" 
+                class="icon"
+                onclick="location.href='https://instagram.com/'"
+                />
+                <img
+                 src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" 
+                 alt="my GitHub profile" 
+                 class="icon"
+                onclick="location.href='https://GitHub.com/'"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="https://i.pinimg.com/236x/0b/7f/9e/0b7f9ee26e1c36eed0171e61683622b0.jpg"
+                 alt="flower pic"
+                 class="about-pic"
+                 >
+            </div>
+            <div class="about-detail-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img
+                        src="https://static.thenounproject.com/png/4246139-200.png" 
+                        alt="Experience icon"
+                        class="icon"
+                        >
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Web Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                        src="https://cdn-icons-png.flaticon.com/512/2153/2153317.png" 
+                        alt="education icon"
+                        class="icon"
+                        >
+                        <h3>Education</h3>
+                        <p>B.Com Computers Degree <br>MBA Masters Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam fugit provident illo reiciendis magni optio sunt praesentium, repellendus sequi sed natus nesciunt iusto vitae earum consectetur distinctio esse tempora eligendi quod ab nostrum expedita accusantium? Hic a provident amet ea, quos nesciunt, nostrum blanditiis excepturi neque placeat perspiciatis eveniet tempore.</p>
+                </div>
+            </div>
+        </div>
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-down-arrow-1767499-1502567.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'"
+        >
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>Node js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://cdn-icons-png.flaticon.com/512/483/483327.png" alt="experience icon"
+                            class="icon" 
+                            style="height: 20px;width: 20px;">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+         src="https://cdn.iconscout.com/icon/free/png-256/free-down-arrow-1767499-1502567.png" 
+        alt="Arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        >
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="https://i.stack.imgur.com/dACE0.png"
+                    alt="Project 1"
+                    class="project-img"
+                    >
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'"
+                    >
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="https://play-lh.googleusercontent.com/bSDRFceeA5lVqBwmGMUorbXXG5oxhREohYM_PpUPlYovL7enOLClZSt78UM_kblQV6M=w526-h296-rw"
+                    alt="Project 2"
+                    class="project-img"
+                    >
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'"
+                    >
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="https://cdn6.aptoide.com/imgs/3/6/9/369acf04e7b615cf8b88a02c78335cb3_screen.png"
+                    alt="Project 3"
+                    class="project-img"
+                    >
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'"
+                    >
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img
+         src="https://cdn.iconscout.com/icon/free/png-256/free-down-arrow-1767499-1502567.png" 
+        alt="Arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        >
+    </section>
+    <section id="contact" style="margin-top: 200px;">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/95/95627.png" 
+                alt="email icon" 
+                class="icon contact-icon email-icon"
+                >
+                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="https://static-00.iconduck.com/assets.00/linkedin-with-circle-icon-512x512-cvyrro5n.png" 
+                alt="Linkedin icon" 
+                class="icon contact-icon"
+                >
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>         
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Sudheer. All Rights Reserved.</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
